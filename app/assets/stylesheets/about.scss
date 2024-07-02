@@ -1,0 +1,30 @@
+// Place all the styles related to the about controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  font-weight: 700;
+}
+h1 {
+  line-height: 0.7;
+  font-weight: 900;
+  font-size: 6.5em;
+  font-style: italic;
+}
+h2 {
+  margin-top: 0.7em;
+  font-size: 2.2em;
+}
+h3 {
+  font-style: italic;
+  text-align: right;
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 30px;
+}
