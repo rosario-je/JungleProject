@@ -14,8 +14,8 @@ describe("Adding to cart", () => {
       .first()
       .contains('Add')
       .click() 
-    cy.get('.nav-item.end-0')
+    cy.get('.nav-item.end-0') 
       .should('contain', 'My Cart (1)')
-})
+  })
 
 })
